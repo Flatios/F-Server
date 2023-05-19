@@ -1,0 +1,68 @@
+
+{
+"success": true,
+"result": [
+    {
+        "latest_version": "3.0.0",
+        "maker": "Hakan Kaygusuz",
+        "autor": "Flatios INC",
+        "Commands": [
+            {
+                "command": ["merhaba", "meraba"],
+                "action": "speak",
+                "text": "merhaba, sana nasıl yardımcı olabilirim?", 
+                "func": false
+            },
+            {
+                "command": ["selam", "selamın aleyküm"],
+                "action": "speak",
+                "text": "sanada selam", 
+                "func": false                        
+            },          
+            {           
+                "command": ["hava durumu", "hava durumunu", "hava durumunu söyle"],
+                "action": "speak",
+                "text": false,
+                "func": "weather"
+            },
+            {           
+                "command": ["haber", "haberler", "haberleri", "haberleri söyle"],
+                "action": "speak",
+                "text": false,
+                "func": "news"
+            },
+            {           
+                "command": ["nöbetçi eczane", "nöbet eczane", "nöbetçi ecza ne", "nöbetçi eczane nerde", "nöbetçi eczane hangisi"],
+                "action": "speak",
+                "text": false,
+                "func": "pod"
+            },
+            {           
+                "command": ["çıkış yap", "görüşürüz", "hoşçakal"],
+                "action": "speak",
+                "text": "Görüşürüz",
+                "func": "Exiter"
+            },
+            {           
+                "command": ["seni kim yaptı", "seni kim programladı", "sen kimsin"],
+                "action": "speak",
+                "text": "Ben Hakan Kaygusuz'un Geliştirdiği bir yapay zeka dil modeliyim",
+                "func": false
+            }, 
+            {           
+                "command": ["müzik çal", "müzik oynat"],
+                "action": "speak",
+                "text": "Hemen Açıyorum.",
+                "func": "PlayMusic"
+            },
+            {           
+                "command": ["saat kaç", "saat kaçtır"],
+                "action": "speak",
+                "text": "Hemen bakıyorum",
+                "func": "Clock"
+            }    
+            
+            ]
+        }
+    ]
+}

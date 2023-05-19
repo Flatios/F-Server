@@ -1,0 +1,29 @@
+{
+    "success": true,
+    "result": {
+        "MEEMS": [
+            {
+                "id": 1,
+                "name": "Volkan Konak",
+                "text": "Selam ben Volkan Konak"
+            },
+            {
+                "id": 2,
+                "name": "Özkan Anık",
+                "text": "İnan bilmiyorum"
+            }
+        ],
+        "Quotations": [
+            {
+                "id": 1,
+                "name": "Tolga Ozuygur",
+                "text": "Her component'in bir datasheet'i vardır ama her datasheet'in bir componenti yoktur."
+            },
+            {
+                "id": 2,
+                "name": "Nikola Tesla",
+                "text": "İnsan imkansızı başarabilir sözü yetersizdir çünkü insan imkansızın da ötesine ulaşabilir."
+            }
+        ]
+    }
+}
